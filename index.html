@@ -1,16 +1,70 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type='text/css' href="./client/styles.css" />
   <title>Perfect Pet</title>
 </head>
+<style>
+    body {
+  background: #eeecec;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.animalDetails {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchForm {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+  margin: 10px
+}
+
+#searchForm li {
+    list-style-type: none;
+    padding: 50px;
+  margin: 40px
+}
+
+#submitButton {
+  border: 2px;
+  border-radius: 5px;
+  width: 75px;
+  height: 25px;
+  background-color: darkgray;
+  font-weight: bold;
+  margin-left: 30px;
+}
+</style>
 <body>
   <h1>Perfect Pet</h1>
+
+
   <div id="root"></div>
+  
+ <script type="text/javascript" src="index.js"></script> 
+
 
   <!-- script for webpack and webpack-dev-server challenge -->
   <script src="build/bundle.js"></script> 
 
-  <!-- uncomment below and comment out the tag above for gulp/browserify challenge -->
-  <!-- <script src="build/browserify-bundle.js"></script> -->
+ 
+
+
 </body>
 </html>
